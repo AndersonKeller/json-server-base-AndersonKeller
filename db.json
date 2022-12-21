@@ -6,6 +6,17 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "teste@gmail.com",
+      "password": "$2a$10$H699X4vymKvuzsmpKlWEAeXA4RpE1RTQk/iZzZrAfh9dszv4JqpaK",
+      "id": 2
+    },
+    {
+      "email": "teste2@gmail.com",
+      "password": "$2a$10$HGmg6PnubADrMj7RYzCwMuiXytz0qwRkwqoukXifjdUVj2bSYb6.O",
+      "id": 3
     }
-  ]
+  ],
+  "register": []
 }
