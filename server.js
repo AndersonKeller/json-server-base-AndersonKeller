@@ -12,7 +12,8 @@ const rules = auth.rewriter({
   users: 600,
   register: 600,
   data: 444,
-  userDecks: 600
+  userDecks: 600,
+  deck: 600,
 });
 
 app.use(cors());
