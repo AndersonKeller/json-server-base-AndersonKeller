@@ -16,55 +16,24 @@
       "email": "teste2@gmail.com",
       "password": "$2a$10$HGmg6PnubADrMj7RYzCwMuiXytz0qwRkwqoukXifjdUVj2bSYb6.O",
       "id": 3
+    },
+    {
+      "email": "teste45@gmail.com",
+      "password": "$2a$10$ee5M7eAxaWEaSJgdDo.7ZejhTCFCXAbWD1alh2S8g2M/QjoOjdMA.",
+      "name": "teste45",
+      "id": 4
     }
   ],
-  "register": [],
-  "userDecks": {
-    "deck": [
-      {
-        "id": 86988864,
-        "name": "3-Hump Lacooda",
-        "type": "Effect Monster",
-        "desc": "If there are 3 face-up \"3-Hump Lacooda\" cards on your side of the field, Tribute 2 of them to draw 3 cards.",
-        "atk": 500,
-        "def": 1500,
-        "level": 3,
-        "race": "Beast",
-        "attribute": "EARTH",
-        "card_sets": [
-          {
-            "set_name": "Ancient Sanctuary",
-            "set_code": "AST-070",
-            "set_rarity": "Common",
-            "set_rarity_code": "(C)",
-            "set_price": "1.07"
-          },
-          {
-            "set_name": "Dark Revelation Volume 2",
-            "set_code": "DR2-EN183",
-            "set_rarity": "Common",
-            "set_rarity_code": "(C)",
-            "set_price": "1.24"
-          }
-        ],
-        "card_images": [
-          {
-            "id": 86988864,
-            "image_url": "https://images.ygoprodeck.com/images/cards/86988864.jpg",
-            "image_url_small": "https://images.ygoprodeck.com/images/cards_small/86988864.jpg"
-          }
-        ],
-        "card_prices": [
-          {
-            "cardmarket_price": "0.03",
-            "tcgplayer_price": "0.24",
-            "ebay_price": "1.09",
-            "amazon_price": "0.25",
-            "coolstuffinc_price": "0.25"
-          }
-        ]
-      }
-    ],
-    "userId": "3"
-  }
+  "deck": [
+    {
+      "name": "inicial",
+      "cards": [
+        {
+          "name": "7 color"
+        }
+      ],
+      "userId": "3",
+      "id": 1
+    }
+  ]
 }
