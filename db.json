@@ -1,39 +1,216 @@
 {
   "users": [
     {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
-      "age": 38,
-      "id": 1
+      "email": "email@email.com",
+      "password": "$2a$10$W8vD1YVNreo6YA3fTq04TeyHVKOK0gQYE9Y4CWWFZuyVEDFgumNra",
+      "id": 2,
+      "name": "administrador",
+      "isAdmin": true
     },
     {
-      "email": "teste@gmail.com",
-      "password": "$2a$10$H699X4vymKvuzsmpKlWEAeXA4RpE1RTQk/iZzZrAfh9dszv4JqpaK",
-      "id": 2
-    },
-    {
-      "email": "teste2@gmail.com",
-      "password": "$2a$10$HGmg6PnubADrMj7RYzCwMuiXytz0qwRkwqoukXifjdUVj2bSYb6.O",
+      "email": "anderson@email.com",
+      "password": "$2a$10$upUCbU4Oen7CVkvdDhP0POaezVzzuVYinxYpi.jvzTHGX/XsZY6Y.",
+      "name": "anderson",
       "id": 3
-    },
-    {
-      "email": "teste45@gmail.com",
-      "password": "$2a$10$ee5M7eAxaWEaSJgdDo.7ZejhTCFCXAbWD1alh2S8g2M/QjoOjdMA.",
-      "name": "teste45",
-      "id": 4
     }
   ],
-  "deck": [
+  "despesas": [
     {
-      "name": "inicial",
-      "cards": [
+      "marco": [
         {
-          "name": "7 color"
+          "fixas": {
+            "internet": 99,
+            "funcionario": 2500,
+            "contabilidade": 600,
+            "imposto": 900,
+            "aluguel": 4561
+          }
+        },
+        {
+          "variaveis": {
+            "mantimentos": 4356,
+            "energia": 2879,
+            "agua": 150,
+            "gasolina": 659.54
+          }
         }
-      ],
-      "userId": "3",
-      "id": 1
+      ]
+    }
+  ],
+  "vendas": [
+    {
+      "marco": 17632.89
+    },
+    {
+      "marcounidades": 881
+    }
+  ],
+  "novavenda": [
+    {
+      "name": "Bolo normal",
+      "valor": 25.99,
+      "quantidade": 2,
+      "id": 9
+    },
+    {
+      "name": "Bolo normal",
+      "valor": 25.99,
+      "quantidade": 2,
+      "id": 10
+    },
+    {
+      "name": "Bolo normal",
+      "valor": 25.99,
+      "quantidade": 1,
+      "id": 11
+    },
+    {
+      "name": "biscoito",
+      "valor": 23,
+      "quantidade": 10,
+      "id": 12
+    },
+    {
+      "name": "Bolo normal",
+      "valor": 25.99,
+      "quantidade": 5,
+      "id": 13
+    },
+    {
+      "name": "biscoito",
+      "valor": 23,
+      "quantidade": 10,
+      "id": 14
+    },
+    {
+      "name": "biscoito",
+      "valor": 23,
+      "quantidade": 6,
+      "id": 15
+    },
+    {
+      "name": "Bolo normal",
+      "valor": 25.99,
+      "quantidade": 1,
+      "id": 16
+    }
+  ],
+  "novadespesa": [
+    {
+      "tipo": "fixa",
+      "valor": 100,
+      "nome": "internet",
+      "id": "1676918107424"
+    },
+    {
+      "tipo": "fixa",
+      "valor": 800,
+      "nome": "internet",
+      "id": "1676920475786"
+    },
+    {
+      "tipo": "fixa",
+      "valor": 95,
+      "nome": "internet",
+      "id": "1676920498288"
+    },
+    {
+      "tipo": "variavel",
+      "valor": 90,
+      "nome": "mantimentos",
+      "id": "1676920543458"
+    },
+    {
+      "tipo": "fixa",
+      "valor": 908,
+      "nome": "mantimentos",
+      "id": "1676920551605"
+    },
+    {
+      "tipo": "fixa",
+      "valor": 908,
+      "nome": "internet",
+      "id": "1676920557413"
+    },
+    {
+      "tipo": "fixa",
+      "valor": 200,
+      "nome": "internet",
+      "id": "1676920605585"
+    },
+    {
+      "tipo": "fixa",
+      "valor": 300,
+      "nome": "internet",
+      "id": "1676920651864"
+    },
+    {
+      "tipo": "variavel",
+      "valor": 100,
+      "nome": "mantimentos",
+      "id": "1677067525299"
+    },
+    {
+      "tipo": "variavel",
+      "valor": 400,
+      "nome": "energia",
+      "id": "1677067648463"
+    },
+    {
+      "tipo": "variavel",
+      "valor": 100,
+      "nome": "mantimentos",
+      "id": "1677075198784"
+    },
+    {
+      "tipo": "fixa",
+      "valor": 100,
+      "nome": "internet",
+      "id": "1677161853563"
+    },
+    {
+      "tipo": "variavel",
+      "valor": 3000,
+      "nome": "mantimentos",
+      "id": "1677161866213"
+    },
+    {
+      "tipo": "fixa",
+      "valor": 900,
+      "nome": "funcionario",
+      "id": "1677245408427"
+    }
+  ],
+  "produto": [
+    {
+      "name": "Bolo normal",
+      "valor": 25.99,
+      "id": 1,
+      "active": false
+    },
+    {
+      "name": "biscoito",
+      "valor": 23,
+      "id": "1677097938050",
+      "active": false
+    },
+    {
+      "name": "bolacha",
+      "valor": 30,
+      "id": "1677185840188",
+      "active": false
+    },
+    {
+      "name": "banana",
+      "valor": 5,
+      "id": "1677244923670",
+      "active": false
+    },
+    {
+      "name": "Bolo normal",
+      "valor": 25.89,
+      "id": "1677245801357",
+      "active": true
     }
   ]
 }
